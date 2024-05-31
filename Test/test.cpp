@@ -1,33 +1,12 @@
 
 #include "gtest/gtest.h"
 
-
-
-//#include "../TinyFiber/scheduler.hpp"
-//#include "../TinyFiber/scheduler.cpp"
-//
-//#include "../TinyFiber/context.hpp"
-//#include "../TinyFiber/context.cpp"
-//
-//#include "../TinyFiber/mmap_allocation.cpp"
-//#include "../TinyFiber/panic.cpp"
-//#include "../TinyFiber/stack.cpp"
-//#include "../TinyFiber/string_builder.hpp"
-//#include "../TinyFiber/memspan.hpp"
-//#include "../TinyFiber/assert.hpp"
-
 #include "scheduler.hpp"
-
 #include "context.hpp"
 #include "string_builder.hpp"
 #include "memspan.hpp"
 #include "assert.hpp"
-
-//#include "../TinyFiber/Coroutine.h"
 #include "Coroutine.h"
-
-
-//extern "C" void tinyfiber::SwitchContext(tinyfiber::ExecutionContext * from, tinyfiber::ExecutionContext * to);
 
 
 TEST(TestCaseName, TestName) {

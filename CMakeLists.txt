@@ -27,7 +27,6 @@ enable_testing()
 
 add_subdirectory(TinyFiber)
 
-
 add_executable(tinyfiber_tests Test/test.cpp)
 
 set_target_properties(tinyfiber_tests PROPERTIES COMPILE_FLAGS "-m32" LINK_FLAGS "-m32")
